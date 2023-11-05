@@ -1,0 +1,62 @@
+{
+  "currentgw": 5,
+  "updatetimestamp": 1698861233000,
+  "gameweeks": [
+    {
+      "gameweek": 5,
+      "updatetimestamp": 1698861233000,
+      "ranking": [
+        {
+          "userid": 8728,
+          "username": "user1",
+          "teamname": "team1",
+          "overallrank": 89477,
+          "overallpoints": 399,
+          "gameweekrank": 1900,
+          "gameweekpoints": 55,
+          "captain": "Haaland",
+          "vicecaptain": "Salah"
+        },
+        {
+          "userid": 98072,
+          "username": "user2",
+          "teamname": "team2",
+          "overallrank": 127933,
+          "overallpoints": 277,
+          "gameweekrank": 12300,
+          "gameweekpoints": 53,
+          "captain": "Haaland",
+          "vicecaptain": "Son"
+        }
+      ]
+    },
+    {
+      "gameweek": 4,
+      "updatetimestamp": 1698861233,
+      "ranking": [
+        {
+          "userid": 8728,
+          "username": "user1",
+          "teamname": "team1",
+          "overallrank": 55477,
+          "overallpoints": 311,
+          "gameweekrank": 33000,
+          "gameweekpoints": 88,
+          "captain": "Haaland",
+          "vicecaptain": "Salah"
+        },
+        {
+          "userid": 98072,
+          "username": "user2",
+          "teamname": "team2",
+          "overallrank": 227933,
+          "overallpoints": 203,
+          "gameweekrank": 45000,
+          "gameweekpoints": 64,
+          "captain": "Haaland",
+          "vicecaptain": "Son"
+        }
+      ]
+    }
+  ]
+}
