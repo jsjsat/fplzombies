@@ -1,10 +1,10 @@
-import { OverallData } from '../../model/model'
+import { OverallData } from '../../model/model';
 
 export const Footer: React.FC<OverallData> = ({
   updatetimestamp,
   currentgw,
 }) => {
-  const date = new Date(updatetimestamp)
+  const date = new Date(updatetimestamp);
   const formattedDate = date.toLocaleDateString('en-GB', {
     hour12: false,
     year: 'numeric',
@@ -12,7 +12,7 @@ export const Footer: React.FC<OverallData> = ({
     day: 'numeric',
     hour: '2-digit',
     minute: '2-digit',
-  })
+  });
 
   return (
     <footer>
@@ -26,5 +26,5 @@ export const Footer: React.FC<OverallData> = ({
       </a>{' '}
       | <span style={{ color: '#FF7519' }}>by JS</span>
     </footer>
-  )
-}
+  );
+};

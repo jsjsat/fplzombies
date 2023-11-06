@@ -30,7 +30,16 @@ export const ZombiesTable: React.FC<GameweekRanking> = ({ ranking }) => {
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
             >
               <TableCell component="th" scope="row">
-                <a href={"https://fantasy.premierleague.com/entry/"+ row.userid + "/history"} target="_blank">{row.username}</a>
+                <a
+                  href={
+                    'https://fantasy.premierleague.com/entry/' +
+                    row.userid +
+                    '/history'
+                  }
+                  target="_blank"
+                >
+                  {row.username}
+                </a>
               </TableCell>
               <TableCell align="right">{row.overallrank}</TableCell>
               <TableCell align="right">{row.overallpoints}</TableCell>
@@ -44,4 +53,4 @@ export const ZombiesTable: React.FC<GameweekRanking> = ({ ranking }) => {
       </Table>
     </TableContainer>
   );
-}
+};
